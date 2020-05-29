@@ -1,0 +1,90 @@
+# *Hello Java*
+The following contents are all the java fundation knowledge:
+
+###Assignment operators:
+    All binary operators except for the assignment operators are evaluated from left to right
+    Assignment operators are evaluated right to left.
+
+###Conditional operators:
+
+    The common conditional operators are && and ||, the other one is ? :, which can be thought 
+    of as shorthand for an if-then-else statement(or ternary operators).
+    e.g. result = someCondition ? value1 : value2;
+    if someCondition is True, return value1, otherwise, return value2. 
+
+###The Type Comparision Operator instanceof:
+    You can use it to test if an object is an instance of a class, an instance of a subclass
+    or an instance of a class that implements a particular interface.
+    When using the instanceof operator, keep in mind that null is not an instance of anything.
+
+'''
+        
+        class InstanceofDemo {
+            public static void main(String[] args) {
+
+                Parent obj1 = new Parent();
+                Parent obj2 = new Child();
+
+                System.out.println("obj1 instanceof Parent: "
+                    + (obj1 instanceof Parent));
+                System.out.println("obj1 instanceof Child: "
+                    + (obj1 instanceof Child));
+                System.out.println("obj1 instanceof MyInterface: "
+                    + (obj1 instanceof MyInterface));
+                System.out.println("obj2 instanceof Parent: "
+                    + (obj2 instanceof Parent));
+                System.out.println("obj2 instanceof Child: "
+                    + (obj2 instanceof Child));
+                System.out.println("obj2 instanceof MyInterface: "
+                    + (obj2 instanceof MyInterface));
+            }
+        }
+            class Parent {}
+            class Child extends Parent implements MyInterface {}
+            interface MyInterface {}            
+            
+            obj1 instanceof Parent: true
+            obj1 instanceof Child: false
+            obj1 instanceof MyInterface: false
+            obj2 instanceof Parent: true
+            obj2 instanceof Child: true
+            obj2 instanceof MyInterface: true
+
+'''
+
+    class is just like one society, and instance like one individual in society, interface just defines the behaviour of each individual in one society.
+
+###do-while && while:
+    The difference between do-while and while is that do-while evaluates its expression
+    at the bottom of the loop instead of the top. 
+
+###class:
+    onject && instance: An Object is said to be an Instance of a particular Category if it satisfies all the characteristic of that particular Category
+
+
+
+###Array:
+1. Array sorting: java.util.Arrays.sort(*Arrayname*)
+2. Array copying: arraycopy(*array1*, start, *array2*, start, length)
+3. 
+
+
+###java intern()
+    question ! !  ! ! !
+**table**
+1. sc
+2. cv
+3. dv
+4. sdv
+5. dv
+
+*table2*
+- df
+- dv
+-  df
+   -  dv
+   -  sdv
+
+
+
+
